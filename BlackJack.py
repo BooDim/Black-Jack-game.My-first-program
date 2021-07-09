@@ -29,7 +29,7 @@ def black_jack():
 
     print(f'    ==> Your cards: {random_card(player_cards, 2)}, current score: {sum(player_cards)} <==\n')    # player's starting cards
     random_card(computers_cards, 2)  # Get the starting cards of the computer
-    print(f'    Computer`s first card: {computers_cards[0]}\nm')   # Show first computer card
+    print(f'    Computer`s first card: {computers_cards[0]}\n')   # Show first computer card
 
 # Player game loop
 
